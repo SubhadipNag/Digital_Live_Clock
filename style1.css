@@ -1,0 +1,85 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  'Algerian' , sans-serif;
+}
+body
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #060a1f;
+ background-image: url("https://images.hdqwalls.com/wallpapers/interstellar-abstract-art-i4.jpg");
+  background-position: center;
+}
+#clock h2
+{
+  position: relative;
+  display: block;
+  color: #fff;
+  text-align: center;
+  margin: 10px 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4cm;
+  font-size: 0.8cm;
+  line-height: 0.70em;
+}
+#clock #time
+{
+  display: flex;
+}
+#clock #time div
+{
+  position: relative;
+  margin: 0 5px;
+  -webkit-box-reflect : below px  linear-gradient(transparent, #0002);
+}
+#clock #time div span
+{
+  position: relative;
+  display: block;
+  width: 160px;
+  height: 90px;
+  background:  #2196f3;
+  color: #fff;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3cm;
+  z-index: 10;
+  box-shadow: 0 0 0 1px  rgba(0, 0, 0, 0.2);
+}
+#clock #time div span:nth-child(2)
+{
+  height: 30px;
+  font-size: 0.7cm;
+  letter-spacing: 0.2cm;
+  font-weight: 500;
+  z-index: none;
+  background: #3300CC;
+  text-transform: uppercase;
+}
+#clock #time div:nth-last-child(2) span
+{
+  background: #ff006a ;
+}
+#clock #time div:nth-last-child(2) span:nth-child(2)
+{
+  background: #CC0033;
+}
+#clock #time div:nth-last-child(1) span
+{
+  position: absolute;
+  bottom: 0;
+  width: 60px;
+  height: 40px;
+  font-size: 1.5em;
+  background: #fff;
+  color: #000;
+  -webkit-box-reflect : below 1px  linear-gradient(transparent, #000);
+}
