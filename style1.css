@@ -28,8 +28,7 @@ body
   letter-spacing: 0.4cm;
   font-size: 0.8cm;
   line-height: 0.70em;
-  -webkit-box-reflect : below 1px  linear-gradient(transparent, #0009);
-}
+  -webkit-box-reflect : below 1px  linear-gradient(transparent, #0009);}
 #clock h2:hover
 {
   position: inherit;
@@ -51,7 +50,7 @@ body
 {
   position: relative;
   margin: 0 5px;
-  -webkit-box-reflect : below 1px  linear-gradient(transparent, #0008);
+  -webkit-box-reflect : below 1px  linear-gradient(transparent, #0009);
 }
 #clock #time div span
 {
