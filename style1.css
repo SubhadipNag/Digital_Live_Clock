@@ -12,7 +12,7 @@ body
   align-items: center;
   min-height: 100vh;
   background: #060a1f;
- background-image: url("https://images.hdqwalls.com/wallpapers/interstellar-abstract-art-i4.jpg");
+ background-image: url("https://images.hdqwalls.com/wallpapers/thumb/bat-logo-dark-4k-cd.jpg");
   background-position: center;
 }
 #clock h2
@@ -27,6 +27,20 @@ body
   letter-spacing: 0.4cm;
   font-size: 0.8cm;
   line-height: 0.70em;
+  -webkit-box-reflect : below 1px  linear-gradient(transparent, #0009);
+}
+#clock h2:hover
+{
+  position: sticky;
+  display: block;
+  color: #fff;
+  text-align: center;
+  margin: 10px  0;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4cm;
+  font-size: 0.8cm;
+  line-height: 0.70em;
 }
 #clock #time
 {
@@ -36,33 +50,35 @@ body
 {
   position: relative;
   margin: 0 5px;
-  -webkit-box-reflect : below px  linear-gradient(transparent, #0002);
+  -webkit-box-reflect : below px  linear-gradient(transparent, #0008);
 }
 #clock #time div span
 {
   position: relative;
   display: block;
-  width: 160px;
-  height: 90px;
+  width: 180px;
+  height: 180px;
   background:  #2196f3;
   color: #fff;
   font-weight: 300;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3cm;
+  font-size: 2.2cm;
   z-index: 10;
-  box-shadow: 0 0 0 1px  rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 5px 1px 0px  rgba(0,0,0,0.5);
+  /* -webkit-box-reflect : below 1px  linear-gradient(transparent, #0009);*/
 }
 #clock #time div span:nth-child(2)
 {
   height: 30px;
-  font-size: 0.7cm;
+  font-size: 0.6cm;
   letter-spacing: 0.2cm;
   font-weight: 500;
   z-index: none;
   background: #3300CC;
   text-transform: uppercase;
+  border-radius:  30px;
 }
 #clock #time div:nth-last-child(2) span
 {
@@ -77,9 +93,15 @@ body
   position: absolute;
   bottom: 0;
   width: 60px;
-  height: 40px;
+  height: 60px;
   font-size: 1.5em;
   background: #fff;
   color: #000;
-  -webkit-box-reflect : below 1px  linear-gradient(transparent, #000);
+  -webkit-box-reflect : below 1px  linear-gradient(transparent, #0009);
+}
+footer{
+  color: #fff;
+  position: absolute;
+  bottom: 60px;
+  right: 60px;
 }
